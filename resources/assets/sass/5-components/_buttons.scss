@@ -1,0 +1,13 @@
+.btn-rounded {
+	border-radius: 50px;
+}
+
+.btn-outline {
+	border-width: 2px;
+
+	&:hover {
+		background-color: $btn-default-color;
+		border-color: $btn-default-border;
+		color: $body-bg;
+	}
+}

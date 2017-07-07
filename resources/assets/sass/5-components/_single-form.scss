@@ -1,0 +1,15 @@
+.form-single {
+	.form-group {
+		margin-bottom: 0;
+	}
+
+	.form-control {
+		border: 0;
+		font-size: 1.2em;
+
+		&,
+		&:focus {
+			box-shadow: none;
+		}
+	}
+}
