@@ -7,3 +7,11 @@ Download or clone this repo and then run this in terminal
 ```sh
 $ npm install
 ```
+To start working, run this command in terminal
+```sh
+$ npm run watch
+```
+or
+```sh
+$ npm run dev
+```
