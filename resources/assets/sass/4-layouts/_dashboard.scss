@@ -1,0 +1,43 @@
+.dashboard {
+
+    .dashboard-sidebar {
+        background-color: #1a1d24;
+
+        &[class^=col] {
+			padding: $grid-gutter-width 0;
+		}
+
+        .list-group {
+			li {
+				padding-left: $grid-gutter-width/2;
+			}
+
+			a {
+				color: #fff;
+
+				&:hover, &.active {
+					color: #ea1830;
+					li {
+						background-color: #ead7d9;
+						border-right: 3px solid #ea1830;
+					}
+				}
+			}
+		}
+    }
+
+    .dashboard-content {
+        &[class^=col] {
+			padding: $grid-gutter-width;
+		}
+    }
+
+    @media(min-width: $screen-desktop) {
+        &.row-eq-height {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+    }
+}
