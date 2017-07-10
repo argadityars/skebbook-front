@@ -11415,6 +11415,7 @@ button.close {
   padding: 10px 0 10px 15px;
   color: #fff;
   display: block;
+  border-right: 3px solid #1a1d24;
 }
 
 .dashboard .dashboard-sidebar .list-group a:hover,
@@ -11422,7 +11423,17 @@ button.close {
   color: #ea1830;
   text-decoration: none;
   background-color: #ead7d9;
-  border-right: 3px solid #ea1830;
+  border-right-color: #ea1830;
+}
+
+.dashboard .dashboard-sidebar .list-group a:hover {
+  color: #fff;
+  border-right-color: rgba(234, 215, 217, 0.2);
+  background-color: rgba(234, 215, 217, 0.2);
+}
+
+.dashboard .dashboard-sidebar .list-group a .badge {
+  margin-right: 5%;
 }
 
 .dashboard .dashboard-content[class^=col] {
