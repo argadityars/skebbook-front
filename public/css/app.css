@@ -11411,27 +11411,23 @@ button.close {
   padding: 30px 0;
 }
 
-.dashboard .dashboard-sidebar .list-group li {
-  padding-left: 15px;
-}
-
 .dashboard .dashboard-sidebar .list-group a {
+  padding: 10px 0 10px 15px;
   color: #fff;
+  display: block;
 }
 
 .dashboard .dashboard-sidebar .list-group a:hover,
 .dashboard .dashboard-sidebar .list-group a.active {
   color: #ea1830;
-}
-
-.dashboard .dashboard-sidebar .list-group a:hover li,
-.dashboard .dashboard-sidebar .list-group a.active li {
+  text-decoration: none;
   background-color: #ead7d9;
   border-right: 3px solid #ea1830;
 }
 
 .dashboard .dashboard-content[class^=col] {
   padding: 30px;
+  padding-right: 15px;
 }
 
 @media (min-width: 992px) {
@@ -11479,21 +11475,9 @@ button.close {
           box-shadow: none;
 }
 
-.list-group {
-  list-style: none;
-  padding: 0;
-}
-
-.list-group a li {
-  padding: 10px 0;
-}
-
-.list-group a:hover {
-  text-decoration: none;
-}
-
 .list-group .divider {
   border-top: 1px dotted rgba(245, 248, 250, 0.5);
   margin: 10px 0;
+  display: block;
 }
 

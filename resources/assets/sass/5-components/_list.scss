@@ -1,19 +1,7 @@
 .list-group {
-	list-style: none;
-	padding: 0;
-
-	a {
-		li {
-			padding: 10px 0;	
-		}
-		
-		&:hover {
-			text-decoration: none;
-		}
-	}
-
 	.divider {
 		border-top: 1px dotted transparentize($body-bg, 0.5);
 		margin: 10px 0;
+		display: block;
 	}
 }

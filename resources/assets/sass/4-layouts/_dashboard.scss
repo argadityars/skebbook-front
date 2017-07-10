@@ -8,27 +8,26 @@
 		}
 
         .list-group {
-			li {
-				padding-left: $grid-gutter-width/2;
-			}
-
 			a {
+				padding: 10px 0 10px $grid-gutter-width/2;
 				color: #fff;
+				display: block;
 
 				&:hover, &.active {
 					color: #ea1830;
-					li {
-						background-color: #ead7d9;
-						border-right: 3px solid #ea1830;
-					}
+					text-decoration: none;
+					background-color: #ead7d9;
+					border-right: 3px solid #ea1830;
 				}
 			}
+
 		}
     }
 
     .dashboard-content {
         &[class^=col] {
 			padding: $grid-gutter-width;
+			padding-right: $grid-gutter-width/2;
 		}
     }
 
