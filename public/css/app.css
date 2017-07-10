@@ -11436,6 +11436,10 @@ button.close {
     display: -ms-flexbox;
     display: flex;
   }
+
+  .dashboard .dashboard-sidebar {
+    height: 100vh;
+  }
 }
 
 .btn-rounded {
