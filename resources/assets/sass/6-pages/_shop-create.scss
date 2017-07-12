@@ -1,0 +1,21 @@
+.dashboard-content {
+    h1, h3 {
+        font-style: strong;
+    }
+
+    h3 {
+        margin-bottom: $grid-gutter-width;
+    }
+
+    hr {
+        margin: $grid-gutter-width 0;
+    }
+
+    .btn {
+        margin-bottom: $grid-gutter-width/2;
+    }
+
+    .btn-text {
+        color: $text-color;
+    }
+}
