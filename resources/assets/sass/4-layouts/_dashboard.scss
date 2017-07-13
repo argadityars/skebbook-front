@@ -39,6 +39,10 @@
         &[class^=col] {
 			padding: $grid-gutter-width/2;
 		}
+
+		.btn {
+			margin-bottom: 0;
+		}
     }
 
     @media(min-width: $screen-desktop) {
@@ -50,7 +54,7 @@
         }
 
 		.dashboard-sidebar {
-			height: 100vh;
+			min-height: 100vh;
 		}
     }
 }
