@@ -1,0 +1,18 @@
+#shop-created-modal {
+    .modal-dialog {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .modal-content {
+        padding: $grid-gutter-width*3 15%;
+
+        h3 {
+            line-height: 24pt;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+    }
+}

@@ -51,34 +51,34 @@
             <div class="col-md-2 dashboard-sidebar">
                 <ul class="list-group">
 					<li>
-						<a href="#"><i class="fa fa-user-circle-o fa-fw" aria-hidden="true"></i>&nbsp; Profile<span class="badge pull-right">14</span></a>
+						<a href="profile.html"><i class="fa fa-user-circle-o fa-fw" aria-hidden="true"></i>&nbsp; Profile</a>
 					</li>
 					<li>
-						<a href="#"><i class="fa fa-tachometer fa-fw" aria-hidden="true"></i>&nbsp; Dashboard</a>
+						<a href="dashboard.html" class="active"><i class="fa fa-tachometer fa-fw" aria-hidden="true"></i>&nbsp; Dashboard</a>
 					</li>
 					<li>
-						<a href="#" class="active"><i class="fa fa-shopping-bag fa-fw" aria-hidden="true"></i>&nbsp; Toko Buku</a>
+						<a href="shop.html"><i class="fa fa-shopping-bag fa-fw" aria-hidden="true"></i>&nbsp; Toko Buku</a>
 					</li>
 					<li>
-						<a href="#"><i class="fa fa-shopping-cart fa-fw" aria-hidden="true"></i>&nbsp; History Belanja</a>
-					</li>
-
-					<li class="divider"></li>
-
-					<li>
-						<a href="#"><i class="fa fa-bar-chart fa-fw" aria-hidden="true"></i>&nbsp; Order</a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>&nbsp; Beriklan</a>
+						<a href="history.html"><i class="fa fa-shopping-cart fa-fw" aria-hidden="true"></i>&nbsp; History Belanja</a>
 					</li>
 
 					<li class="divider"></li>
 
 					<li>
-						<a href="#"><i class="fa fa-thumbs-o-up fa-fw" aria-hidden="true"></i>&nbsp; Buat Verifikasi Store</a>
+						<a href="order.html"><i class="fa fa-bar-chart fa-fw" aria-hidden="true"></i>&nbsp; Order</a>
 					</li>
 					<li>
-						<a href="#"><i class="fa fa-pencil-square-o fa-fw" aria-hidden="true"></i>&nbsp; Tulis Blog</a>
+						<a href="ads.html"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i>&nbsp; Beriklan</a>
+					</li>
+
+					<li class="divider"></li>
+
+					<li>
+						<a href="verification.html"><i class="fa fa-thumbs-o-up fa-fw" aria-hidden="true"></i>&nbsp; Buat Verifikasi Store</a>
+					</li>
+					<li>
+						<a href="blog.html"><i class="fa fa-pencil-square-o fa-fw" aria-hidden="true"></i>&nbsp; Tulis Blog</a>
 					</li>
                 </ul>
             </div>
@@ -162,8 +162,8 @@
 					<div class="panel-body">
 						<!-- Nav tabs -->
 						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation" class="active"><a href="#product" aria-controls="home" role="tab" data-toggle="tab">Buku Dagangan</a></li>
-							<li role="presentation"><a href="#review" aria-controls="profile" role="tab" data-toggle="tab">Review Pembeli</a></li>
+							<li role="presentation" class="active"><a href="#product-0" aria-controls="home" role="tab" data-toggle="tab">Buku Dagangan</a></li>
+							<li role="presentation"><a href="#review-0" aria-controls="profile" role="tab" data-toggle="tab">Review Pembeli</a></li>
 							
 							<a href="#" class="btn btn-primary btn-sm pull-right">Tambah buku</a>
 							<a href="#" class="btn btn-default btn-sm pull-right" style="margin-right:5px">Lihat toko buku</a>
@@ -172,14 +172,14 @@
 
 						<!-- Tab panes -->
 						<div class="tab-content">
-							<div role="tabpanel" class="tab-pane active" id="product">
+							<div role="tabpanel" class="tab-pane active" id="product-0">
 								<div class="shop-empty text-center">
 									<h1>Belum ada buku diunggah</h1>
 									<p>Upload buku dan mulai kelola toko buku kamu sendiri.</p>
 									<a href="create-product.html" class="btn btn-default">Tambah buku</a>
 								</div>
 							</div>
-							<div role="tabpanel" class="tab-pane" id="review">Review</div>
+							<div role="tabpanel" class="tab-pane" id="review-0">Review</div>
 						</div>
 					</div>
 				</div>
@@ -200,7 +200,7 @@
 
 						<!-- Tab panes -->
 						<div class="tab-content">
-							<div role="tabpanel" class="tab-pane active" id="product">
+							<div role="tabpanel" class="tab-pane" id="product">
 								
 								<table class="table table-hover table-product">
 									<tbody>
@@ -282,7 +282,37 @@
 									</ul>
 								</div>
 							</div>
-							<div role="tabpanel" class="tab-pane" id="review">Review</div>
+							<div role="tabpanel" class="tab-pane active review-tab" id="review">
+								
+								<div class="row">
+									
+									<div class="col-md-2 col-lg-2">
+										<div class="panel panel-default">
+											<div class="panel-body">
+											   <p>Gantari Bookshop</p>
+											</div>
+										</div>
+									</div>
+									
+									
+									<div class="col-md-5 col-lg-5">
+										<div class="panel panel-default">
+											<div class="panel-body">
+											   Basic panel example
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-5 col-lg-5">
+										<div class="panel panel-default">
+											<div class="panel-body">
+											   Basic panel example
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
 						</div>
 					</div>
 				</div>
@@ -292,7 +322,24 @@
         
 	</div>
 
+	<div class="modal fade" tabindex="-1" role="dialog" id="shop-created-modal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content text-center">
+				<h1>Selamat Ghifari!</h1>
+				<h3>Toko buku kamu berhasil dibuat.</h3>
+				<a href="shop.html" class="btn btn-default">Mulai kelola</a>
+			</div>
+		</div>
+	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- remove this on production -->
+	<script type="text/javascript">
+		// $(window).on('load',function(){
+		// 	$('#shop-created-modal').modal('show');
+		// });
+	</script>
+	<!-- remove this on production -->
 </body>
 </html>

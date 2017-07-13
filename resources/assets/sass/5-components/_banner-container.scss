@@ -1,6 +1,7 @@
 .banner-container {
     width: 100%;
     height: 175px;
+    
 
     img {
         object-fit: cover;
@@ -8,6 +9,8 @@
         width: 100%;
         border: 1px solid $panel-default-border;
         border-bottom: 0;
+        border-top-left-radius: $panel-border-radius;
+        border-top-right-radius: $panel-border-radius;
     }
 
     .banner-title {

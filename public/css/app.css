@@ -11525,6 +11525,8 @@ a {
   width: 100%;
   border: 1px solid #d3e0e9;
   border-bottom: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .banner-container .banner-title {
@@ -11584,6 +11586,27 @@ a {
 
 .table-product .btn {
   margin-bottom: 0;
+}
+
+#shop-created-modal .modal-dialog {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+#shop-created-modal .modal-content {
+  padding: 90px 15%;
+}
+
+#shop-created-modal .modal-content h3 {
+  line-height: 24pt;
+}
+
+#shop-created-modal .modal-content h1 {
+  margin-top: 0;
+}
+
+.review-tab {
+  margin-top: 15px;
 }
 
 .dashboard-content h1,
