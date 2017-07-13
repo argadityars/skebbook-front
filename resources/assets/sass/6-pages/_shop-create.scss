@@ -1,21 +1,22 @@
 .dashboard-content {
+
     h1, h3 {
-        font-style: strong;
+        font-weight: 600;
+    }
+
+    h1 {
+        margin-top: $grid-gutter-width*2;
     }
 
     h3 {
         margin-bottom: $grid-gutter-width;
     }
 
+    h4 {
+        line-height: 24pt;
+    }
+
     hr {
         margin: $grid-gutter-width 0;
-    }
-
-    .btn {
-        margin-bottom: $grid-gutter-width/2;
-    }
-
-    .btn-text {
-        color: $text-color;
     }
 }

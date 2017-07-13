@@ -92,8 +92,9 @@
 						<p class="shop-tagline">Mencerdaskan Negeri</p>
 						
 					</div>
-					<a href="#" class="btn btn-default">Ubah avatar</a>
+					<a href="#" class="btn btn-default btn-sm">Ubah avatar</a>
 				</div>
+
                 <div class="panel panel-default panel-shop">
 					
 					<div class="panel-body">
@@ -145,7 +146,7 @@
                                     </div>
 
 									<div class="col-md-2 col-lg-2">
-										<a href="#" class="btn btn-default pull-right">Update Info</a>
+										<a href="#" class="btn btn-default btn-sm pull-right">Update Info</a>
 									</div>
                                     
                                 </div>
@@ -155,7 +156,8 @@
                         
                     </div>
                 </div>
-                
+				
+				<!-- Empty shop panel -->
 				<div class="panel panel-default">
 					<div class="panel-body">
 						<!-- Nav tabs -->
@@ -170,12 +172,121 @@
 
 						<!-- Tab panes -->
 						<div class="tab-content">
-							<div role="tabpanel" class="tab-pane active" id="product">Buku Dagangan</div>
+							<div role="tabpanel" class="tab-pane active" id="product">
+								<div class="shop-empty text-center">
+									<h1>Belum ada buku diunggah</h1>
+									<p>Upload buku dan mulai kelola toko buku kamu sendiri.</p>
+									<a href="create-product.html" class="btn btn-default">Tambah buku</a>
+								</div>
+							</div>
 							<div role="tabpanel" class="tab-pane" id="review">Review</div>
 						</div>
 					</div>
 				</div>
+				<!-- End of empty shop panel -->
 				
+				<!-- Shop panel with product -->
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active"><a href="#product" aria-controls="home" role="tab" data-toggle="tab">Buku Dagangan</a></li>
+							<li role="presentation"><a href="#review" aria-controls="profile" role="tab" data-toggle="tab">Review Pembeli</a></li>
+							
+							<a href="#" class="btn btn-primary btn-sm pull-right">Tambah buku</a>
+							<a href="#" class="btn btn-default btn-sm pull-right" style="margin-right:5px">Lihat toko buku</a>
+							<a href="#" class="btn btn-default btn-sm pull-right" style="margin-right:5px">Buat strategi pemasaran</a>
+						</ul>
+
+						<!-- Tab panes -->
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="product">
+								
+								<table class="table table-hover table-product">
+									<tbody>
+										<tr>
+											<td class="img-table">
+												<img src="http://via.placeholder.com/400x600" alt="Book name" class="cover">
+											</td>
+											<td>
+												<div class="row">
+													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+														<p>Buku Satu 
+														<span class="label label-success">Bekas</span></p>
+													</div>
+												</div>
+												
+												<div class="row">
+													<div class="col-md-6 col-lg-6">
+														Kategori: Satu
+													</div>
+													
+													<div class="col-md-6 col-lg-6">
+														Subkategori: Dua
+													</div>
+												</div>
+											</td>
+											<td class="col-md-3 text-right">
+												<a href="#" class="btn btn-default btn-sm">Iklankan</a>
+												<a href="#" class="btn btn-info btn-sm">Edit buku</a>
+												<a href="#" class="btn btn-text btn-sm">x</a>
+											</td>
+										</tr>
+										<tr>
+											<td class="img-table">
+												<img src="http://via.placeholder.com/400x600" alt="Book name" class="cover">
+											</td>
+											<td>
+												<div class="row">
+													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+														<p>Buku Satu 
+														<span class="label label-success">Bekas</span></p>
+													</div>
+												</div>
+												
+												<div class="row">
+													<div class="col-md-6 col-lg-6">
+														Kategori: Satu
+													</div>
+													
+													<div class="col-md-6 col-lg-6">
+														Subkategori: Dua
+													</div>
+												</div>
+											</td>
+											<td class="col-md-3 text-right">
+												<a href="#" class="btn btn-default btn-sm">Iklankan</a>
+												<a href="#" class="btn btn-info btn-sm">Edit buku</a>
+												<a href="#" class="btn btn-text btn-sm">x</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="text-center">
+									<ul class="pagination">
+										<li>
+											<a href="#" aria-label="Previous">
+											<span aria-hidden="true">&laquo;</span>
+											</a>
+										</li>
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li>
+											<a href="#" aria-label="Next">
+											<span aria-hidden="true">&raquo;</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="review">Review</div>
+						</div>
+					</div>
+				</div>
+				<!-- End of shop panel with product -->
             </div>
         </div>
         

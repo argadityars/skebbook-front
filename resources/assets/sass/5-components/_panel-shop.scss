@@ -1,15 +1,44 @@
+@import "avatar-container",
+        "banner-container";
+
 .panel-shop {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-top: 0;
+}
 
-    // .avatar-container {
-    //     position: absolute;
-    //     bottom: -40px;
-    //     left: 40px;
+.shop-empty {
+    margin: $grid-gutter-width 40%;
 
-    //     img {
-    //         max-width: 120px;
-    //     }
-    // }
+    h1 {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}
+
+.img-table {
+    width: $table-img-width;
+    height: $table-img-height;
+
+    img {
+        height: 100%;
+    }
+
+    img[class] {
+        width: 100%;
+    }
+
+    .cover {
+        object-fit: cover;
+    }
+}
+
+.table-product {
+    tbody > tr > td {
+        vertical-align: middle;
+    }
+
+    .btn {
+        margin-bottom: 0;
+    }
 }
